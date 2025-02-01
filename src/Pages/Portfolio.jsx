@@ -1,5 +1,7 @@
 
 import AmeliImage from '../assets/img/portfolio/ameli.png';
+import RasEcomImage from '../assets/img/portfolio/ras.png';
+import trustBhaiImage from '../assets/img/portfolio/trustBhai.png';
 
 const Portfolio = () => {
     return (
@@ -31,35 +33,37 @@ const Portfolio = () => {
                             <p>e-commerce App</p>
                         </div>
                         <div className="portfolio-links">
-                            <a href={AmeliImage} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bx bx-plus"></i></a>
-                            <a href="https://marhababd.com/" target="_blank" title="More Details"><i className="bx bx-link"></i></a>
+                            <a href="https://multi-store.manirul.xyz/" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bx bx-plus"></i></a>
+                            <a href="https://multi-store.manirul.xyz/" target="_blank" title="More Details"><i className="bx bx-link"></i></a>
                         </div>
                         </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div className="portfolio-wrap">
-                        <img src="assets/img/portfolio/marhaba.png" className="img-fluid" alt="" />
+                        <img src={RasEcomImage} className="img-fluid" alt="" />
                         <div className="portfolio-info">
-                            <h4>Marhaba BD</h4>
+                            <h4>Single Vendore App</h4>
                             <p>e-commerce App</p>
                         </div>
                         <div className="portfolio-links">
-                            <a href="assets/img/portfolio/marhaba.png" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bx bx-plus"></i></a>
-                            <a href="https://marhababd.com/" target="_blank" title="More Details"><i className="bx bx-link"></i></a>
+                            <a href="https://ecom.rashi-tech.com/" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bx bx-plus"></i></a>
+                            <a href="https://ecom.rashi-tech.com/" target="_blank" title="More Details"><i className="bx bx-link"></i></a>
                         </div>
                         </div>
                     </div>
 
+                   
+
                     <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div className="portfolio-wrap">
-                        <img src="assets/img/portfolio/trust_bahi.PNG" className="img-fluid" alt="" />
+                        <img src={trustBhaiImage} className="img-fluid" alt="" />
                         <div className="portfolio-info">
                             <h4>Trust Bhai</h4>
                             <p>e-commerce App</p>
                         </div>
                         <div className="portfolio-links">
-                            <a href="assets/img/portfolio/trust_bahi.PNG" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus"></i></a>
+                            <a href={trustBhaiImage} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus"></i></a>
                             <a href="https://trustbhai.com/" target="_blank" title="More Details"><i className="bx bx-link"></i></a>
                         </div>
                         </div>
