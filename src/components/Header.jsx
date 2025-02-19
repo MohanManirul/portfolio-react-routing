@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
  // ✅ External CSS Import
 
 const Header = () => {
@@ -26,6 +26,8 @@ const Header = () => {
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle"></i>
                 </nav>
+
+               
 
             </div>
         </header>

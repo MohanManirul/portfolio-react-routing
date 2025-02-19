@@ -7,6 +7,7 @@ import Portfolio from './Pages/Portfolio';
 import Contact from './Pages/Contact';
 import Layout from './Pages/Layout/Layout';
 import NotFound from './Pages/NotFound';
+import DetailsPage from './components/DetailsPage';
 
 const App = () => {
   return (
@@ -18,6 +19,11 @@ const App = () => {
           <Route path="/skills" element={<Skills />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
+
+          <Route path="/details/:id" element={<DetailsPage />} />
+
+
+
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </Layout>

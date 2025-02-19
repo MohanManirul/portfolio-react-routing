@@ -4,11 +4,11 @@ import Skills from './Skills';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 
-
-
 const HomePage = () => {
+
+
     return (    
-        <main id="main">       
+        <main id="main">        
 
             <About/>
 
