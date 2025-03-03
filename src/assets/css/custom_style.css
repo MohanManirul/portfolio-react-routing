@@ -1,3 +1,11 @@
+* {
+    color: black;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
 /* Active link (Green) */
 .navbar ul li a.active-item {
     color: green;

@@ -22,7 +22,7 @@ const DetailsPage = () => {
     
     return (
         <div>
-            <p>post details page</p>
+            <p>post details page edit</p>
             {
                 list===null?<Loader/> : <BlogDetails list={list}/>
             }

@@ -10,8 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #5a656e;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -30,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: "Times New Roman", serif;
 }
 
 /*--------------------------------------------------------------
